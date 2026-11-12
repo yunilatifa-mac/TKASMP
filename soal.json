@@ -1,0 +1,1215 @@
+{
+  "judul": "Tes Kemampuan Akademik (TKA) Matematika",
+  "jenjang": "SMP/MTs/Sederajat",
+  "paket": 1,
+  "jumlah_soal": 30,
+  "alokasi_waktu_menit": 90,
+  "catatan": "Soal latihan disusun mengikuti format contoh soal TKA SMP (Pusmendik); bukan soal resmi.",
+  "petunjuk_umum": [
+    "Berdoalah sebelum mengerjakan soal, kemudian periksa kelengkapan soal Anda (30 soal).",
+    "Bacalah setiap soal dengan teliti, termasuk gambar, grafik, dan tabel yang menyertainya.",
+    "Soal terdiri atas tiga bentuk: Pilihan Ganda (PG) – pilih satu jawaban yang benar; Pilihan Ganda Kompleks MCMA – pilih semua jawaban yang benar (jawaban benar lebih dari satu); dan Pilihan Ganda Kompleks Kategori – tentukan Benar atau Salah untuk setiap pernyataan.",
+    "Kerjakan terlebih dahulu soal yang menurut Anda mudah.",
+    "Gunakan π = 22/7 hanya bila diminta pada soal. Kalkulator tidak diperbolehkan.",
+    "Periksa kembali jawaban Anda sebelum waktu pengerjaan berakhir."
+  ],
+  "pedoman_penskoran": {
+    "PG": "Skor 1 jika jawaban benar, skor 0 jika salah atau tidak dijawab.",
+    "PGK_MCMA": "Skor 1 jika seluruh jawaban yang benar terpilih dan tidak ada jawaban salah yang terpilih; selain itu skor 0.",
+    "PGK_KATEGORI": "Skor 1 jika ketiga pernyataan dijawab benar; selain itu skor 0.",
+    "nilai": "Nilai = (skor perolehan ÷ 30) × 100"
+  },
+  "stimulus": [
+    {
+      "id": "S1",
+      "untuk_nomor": [
+        9,
+        10,
+        11
+      ],
+      "petunjuk": "Gunakan informasi berikut untuk menjawab soal nomor 9 sampai dengan nomor 11.",
+      "judul": "Alur Pelayanan Vaksinasi",
+      "teks": "Vaksinasi merupakan salah satu upaya melindungi diri dan orang di sekitar dari penyakit menular. Kegiatan ini biasanya dilayani oleh puskesmas. Berikut adalah alur pelayanan vaksinasi di sebuah puskesmas.",
+      "gambar": [
+        {
+          "file": "images/info.png",
+          "lebar_cm": 10.58,
+          "tinggi_cm": 9.39
+        }
+      ]
+    }
+  ],
+  "soal": [
+    {
+      "nomor": 1,
+      "tipe": "PG",
+      "bentuk_soal": "Pilihan Ganda (PG)",
+      "teks_soal": "Rudi membeli 3 buku tulis dan 2 pulpen di sebuah toko alat tulis. Harga satuan buku tulis adalah Rp9.000,00 dan harga satuan pulpen adalah Rp6.000,00. Kebetulan, toko tersebut sedang memberikan promo \"Beli Lima Lebih Hemat\" dengan ketentuan sebagai berikut:\n\"Setiap pembelian 5 barang (boleh campur) akan mendapat potongan harga sebesar harga 1 barang termurah yang dibeli\".\nBerapa total harga yang harus dibayar Rudi dari semua barang yang dibeli?",
+      "gambar": [],
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Rp30.000,00."
+        },
+        {
+          "label": "B",
+          "teks": "Rp33.000,00."
+        },
+        {
+          "label": "C",
+          "teks": "Rp36.000,00."
+        },
+        {
+          "label": "D",
+          "teks": "Rp39.000,00."
+        }
+      ],
+      "kunci": "B",
+      "pembahasan": "Buku tulis: 3 × 9.000 = 27.000; pulpen: 2 × 6.000 = 12.000; jumlah 39.000. Barang termurah (pulpen) Rp6.000, sehingga dibayar 39.000 − 6.000 = Rp33.000.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Bilangan Real",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: operasi aritmetika pada bilangan.",
+        "indikator": "Menghitung total harga belanja dengan ketentuan potongan harga tertentu.",
+        "level_kognitif": "Penerapan"
+      }
+    },
+    {
+      "nomor": 2,
+      "tipe": "PGK_MCMA",
+      "bentuk_soal": "PGK MCMA",
+      "teks_soal": "Sebuah toko menjual 1 liter minyak goreng seharga Rp17.800,00. Jika seseorang membeli 4,9 liter minyak goreng yang sama, berapa perkiraan total harga yang mungkin?",
+      "gambar": [],
+      "instruksi": "Pilih semua jawaban benar! Jawaban benar lebih dari satu.",
+      "opsi": [
+        {
+          "label": "1",
+          "teks": "Kurang dari Rp90.000,00."
+        },
+        {
+          "label": "2",
+          "teks": "Lebih besar dari Rp88.000,00."
+        },
+        {
+          "label": "3",
+          "teks": "Dapat diperkirakan dengan 5 × Rp17.500,00."
+        },
+        {
+          "label": "4",
+          "teks": "Lebih dari Rp100.000,00."
+        }
+      ],
+      "kunci": [
+        "1",
+        "3"
+      ],
+      "pembahasan": "Nilai sebenarnya 4,9 × 17.800 = Rp87.220. (1) benar: 87.220 < 90.000. (2) salah: 87.220 < 88.000. (3) benar: 5 × 17.500 = 87.500 mendekati hasil sebenarnya. (4) salah.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Bilangan Real",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: estimasi/perkiraan hasil perhitungan.",
+        "indikator": "Menentukan pernyataan yang tepat tentang perkiraan hasil perkalian bilangan desimal.",
+        "level_kognitif": "Penalaran"
+      }
+    },
+    {
+      "nomor": 3,
+      "tipe": "PGK_MCMA",
+      "bentuk_soal": "PGK MCMA",
+      "teks_soal": "Terdapat tiga bilangan yang dinyatakan dengan (10² − 16), (5³ + 1), dan (6 × 35).\nBilangan apa saja yang merupakan faktor persekutuan ketiga bilangan tersebut?",
+      "gambar": [],
+      "instruksi": "Pilihlah jawaban yang benar! Jawaban benar lebih dari satu.",
+      "opsi": [
+        {
+          "label": "1",
+          "teks": "2² × 3 × 7"
+        },
+        {
+          "label": "2",
+          "teks": "2 × 3 × 7"
+        },
+        {
+          "label": "3",
+          "teks": "3 × 7"
+        },
+        {
+          "label": "4",
+          "teks": "2 × 3²"
+        }
+      ],
+      "kunci": [
+        "2",
+        "3"
+      ],
+      "pembahasan": "Ketiga bilangan: 84 = 2² × 3 × 7; 126 = 2 × 3² × 7; 210 = 2 × 3 × 5 × 7. FPB = 2 × 3 × 7 = 42, sehingga faktor persekutuannya adalah faktor dari 42, yaitu 2 × 3 × 7 (42) dan 3 × 7 (21). Pilihan 1 (84) dan 4 (18) tidak membagi ketiga bilangan.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Bilangan Real",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: faktorisasi prima bilangan asli.",
+        "indikator": "Menentukan faktor persekutuan tiga bilangan melalui faktorisasi prima.",
+        "level_kognitif": "Penalaran"
+      }
+    },
+    {
+      "nomor": 4,
+      "tipe": "PG",
+      "bentuk_soal": "Pilihan Ganda (PG)",
+      "teks_soal": "Perhatikan peta berikut.\nJarak kota P dan kota Q pada peta adalah 7,5 cm. Jarak sebenarnya antara kota P dan kota Q adalah ....",
+      "gambar": [
+        {
+          "file": "images/q04.png",
+          "lebar_cm": 10.58,
+          "tinggi_cm": 6.09
+        }
+      ],
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "15 km"
+        },
+        {
+          "label": "B",
+          "teks": "100 km"
+        },
+        {
+          "label": "C",
+          "teks": "150 km"
+        },
+        {
+          "label": "D",
+          "teks": "1.500 km"
+        }
+      ],
+      "kunci": "C",
+      "pembahasan": "Jarak sebenarnya = 7,5 cm × 2.000.000 = 15.000.000 cm = 150 km.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Bilangan Real",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: rasio (skala, proporsi, dan laju perubahan).",
+        "indikator": "Menentukan jarak sebenarnya berdasarkan skala peta.",
+        "level_kognitif": "Penerapan"
+      }
+    },
+    {
+      "nomor": 5,
+      "tipe": "PG",
+      "bentuk_soal": "Pilihan Ganda (PG)",
+      "teks_soal": "Harga ¾ kilogram daging ayam pada hari ini adalah Rp27.000,00.\nJika hari ini Ibu membeli daging ayam seberat 2½ kilogram, total harga yang harus dibayar Ibu adalah ....",
+      "gambar": [],
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Rp90.000,00"
+        },
+        {
+          "label": "B",
+          "teks": "Rp81.000,00"
+        },
+        {
+          "label": "C",
+          "teks": "Rp67.500,00"
+        },
+        {
+          "label": "D",
+          "teks": "Rp54.000,00"
+        }
+      ],
+      "kunci": "A",
+      "pembahasan": "Harga 1 kg = 27.000 : ¾ = Rp36.000. Harga 2½ kg = 2,5 × 36.000 = Rp90.000.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Bilangan Real",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: perbandingan senilai dan berbalik nilai.",
+        "indikator": "Menyelesaikan masalah perbandingan senilai dengan bilangan pecahan.",
+        "level_kognitif": "Penerapan"
+      }
+    },
+    {
+      "nomor": 6,
+      "tipe": "PG",
+      "bentuk_soal": "Pilihan Ganda (PG)",
+      "teks_soal": "Persediaan pakan untuk 24 ekor kambing cukup untuk 30 hari. Setelah 10 hari, sebanyak 8 ekor kambing dijual. Pakan yang tersisa diberikan kepada kambing yang masih ada dengan jatah per ekor yang sama setiap harinya.\nSisa pakan tersebut akan cukup untuk ....",
+      "gambar": [],
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "15 hari"
+        },
+        {
+          "label": "B",
+          "teks": "20 hari"
+        },
+        {
+          "label": "C",
+          "teks": "24 hari"
+        },
+        {
+          "label": "D",
+          "teks": "30 hari"
+        }
+      ],
+      "kunci": "D",
+      "pembahasan": "Sisa pakan setelah 10 hari setara 24 × 20 = 480 ekor-hari. Dengan 16 ekor kambing: 480 : 16 = 30 hari.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Bilangan Real",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: perbandingan senilai dan berbalik nilai.",
+        "indikator": "Menyelesaikan masalah perbandingan berbalik nilai pada situasi yang berubah di tengah waktu.",
+        "level_kognitif": "Penalaran"
+      }
+    },
+    {
+      "nomor": 7,
+      "tipe": "PGK_KATEGORI",
+      "bentuk_soal": "PGK Kategori",
+      "teks_soal": "Pengisian Bak Air\nSebuah bak air dapat diisi penuh oleh 3 pompa identik dalam waktu 40 menit. Semua pompa memiliki debit yang sama dan tetap.",
+      "gambar": [
+        {
+          "file": "images/q07.png",
+          "lebar_cm": 11.11,
+          "tinggi_cm": 5.9
+        }
+      ],
+      "instruksi": "Tentukan Benar atau Salah untuk setiap pernyataan berikut tentang pengisian bak tersebut!",
+      "pilihan_kategori": [
+        "Benar",
+        "Salah"
+      ],
+      "pernyataan": [
+        {
+          "label": "A",
+          "teks": "Jika bak diisi oleh 4 pompa identik, bak penuh dalam waktu 30 menit."
+        },
+        {
+          "label": "B",
+          "teks": "Jika bak diisi oleh 5 pompa identik, bak penuh dalam waktu 20 menit."
+        },
+        {
+          "label": "C",
+          "teks": "Jika 2 pompa bekerja selama 20 menit, kemudian 2 pompa lain ikut dinyalakan, bak penuh 20 menit setelah pompa tambahan dinyalakan."
+        }
+      ],
+      "kunci": {
+        "A": "Benar",
+        "B": "Salah",
+        "C": "Benar"
+      },
+      "pembahasan": "Total pekerjaan = 3 × 40 = 120 pompa-menit. (A) 120 : 4 = 30 menit → Benar. (B) 120 : 5 = 24 menit → Salah. (C) 2 pompa × 20 menit = 40; sisa 80 pompa-menit dikerjakan 4 pompa = 20 menit → Benar.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Bilangan Real",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: perbandingan senilai dan berbalik nilai.",
+        "indikator": "Menentukan kebenaran pernyataan tentang waktu pengisian bak air bila jumlah pompa berubah.",
+        "level_kognitif": "Penalaran"
+      }
+    },
+    {
+      "nomor": 8,
+      "tipe": "PGK_MCMA",
+      "bentuk_soal": "PGK MCMA",
+      "teks_soal": "Sebuah konveksi menerima pesanan seragam yang harus selesai dalam 15 hari. Pekerjaan direncanakan dikerjakan oleh 8 penjahit dengan kemampuan dan produktivitas yang sama. Setelah bekerja 5 hari, 2 penjahit sakit sehingga hanya 6 penjahit yang bekerja. Batas waktu penyelesaian tetap 15 hari.\nBerdasarkan situasi tersebut, manakah pernyataan yang sesuai tentang penyelesaian pesanan dalam sisa waktu yang tersedia?",
+      "gambar": [],
+      "instruksi": "Pilih semua jawaban benar! Jawaban benar lebih dari satu.",
+      "opsi": [
+        {
+          "label": "1",
+          "teks": "Dengan 6 penjahit, sisa pekerjaan dapat diselesaikan dalam 10 hari."
+        },
+        {
+          "label": "2",
+          "teks": "Sisa pekerjaan setara dengan hasil kerja 1 penjahit selama 80 hari."
+        },
+        {
+          "label": "3",
+          "teks": "Menambah 1 penjahit (menjadi 7 orang) sudah cukup agar pesanan selesai tepat waktu."
+        },
+        {
+          "label": "4",
+          "teks": "Agar tepat waktu, jumlah penjahit pada sisa waktu harus kembali menjadi 8 orang."
+        }
+      ],
+      "kunci": [
+        "2",
+        "4"
+      ],
+      "pembahasan": "Total pekerjaan 8 × 15 = 120 penjahit-hari. Selesai 8 × 5 = 40, sisa 80 penjahit-hari dengan sisa waktu 10 hari. (1) 80 : 6 ≈ 13,3 hari → salah. (2) benar. (3) 7 × 10 = 70 < 80 → salah. (4) 80 : 10 = 8 penjahit → benar.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Bilangan Real",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: perbandingan senilai dan berbalik nilai.",
+        "indikator": "Menganalisis penyesuaian jumlah pekerja agar pekerjaan selesai tepat waktu.",
+        "level_kognitif": "Penalaran"
+      }
+    },
+    {
+      "nomor": 9,
+      "tipe": "PG",
+      "bentuk_soal": "Pilihan Ganda (PG)",
+      "stimulus_id": "S1",
+      "teks_soal": "Seorang warga datang ke puskesmas untuk divaksinasi. Kebetulan saat itu tidak ada antrean sehingga ia dapat langsung dilayani pada setiap tahap.\nJika tidak ada kendala pada pelayanan, apa yang sedang dilakukan warga tersebut setelah 17 menit berlalu?",
+      "gambar": [],
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Tahap pendaftaran"
+        },
+        {
+          "label": "B",
+          "teks": "Tahap pemeriksaan awal"
+        },
+        {
+          "label": "C",
+          "teks": "Tahap penyuntikan vaksin"
+        },
+        {
+          "label": "D",
+          "teks": "Tahap observasi"
+        }
+      ],
+      "kunci": "C",
+      "pembahasan": "Pendaftaran 0–5 menit, pemeriksaan awal 5–15 menit, tanpa antrean langsung penyuntikan pada menit 15–25. Pada menit ke-17 warga sedang disuntik.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Laju perubahan",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: menyelesaikan masalah sehari-hari terkait laju perubahan.",
+        "indikator": "Menentukan tahap layanan yang sedang berlangsung pada waktu tertentu berdasarkan alur dan durasi.",
+        "level_kognitif": "Penerapan"
+      }
+    },
+    {
+      "nomor": 10,
+      "tipe": "PGK_MCMA",
+      "bentuk_soal": "PGK MCMA",
+      "stimulus_id": "S1",
+      "teks_soal": "Dina baru saja tiba di puskesmas. Saat itu Bayu sedang menunggu di kursi tunggu untuk disuntik, sedangkan Candra sedang disuntik sejak 4 menit yang lalu. Puskesmas hanya menggunakan satu meja penyuntikan, pasien dilayani sesuai urutan kedatangan, tidak ada pasien lain selain mereka bertiga, dan setiap orang langsung menuju tahap berikutnya begitu satu tahap selesai.\nBerikut ini, manakah pernyataan yang benar tentang Dina?",
+      "gambar": [],
+      "instruksi": "Pilih semua jawaban benar! Jawaban benar lebih dari satu.",
+      "opsi": [
+        {
+          "label": "1",
+          "teks": "Dina sempat duduk di kursi tunggu sebelum disuntik."
+        },
+        {
+          "label": "2",
+          "teks": "Ketika Dina selesai pemeriksaan awal, Bayu sudah selesai disuntik."
+        },
+        {
+          "label": "3",
+          "teks": "Dina mulai disuntik tepat 15 menit setelah ia tiba."
+        },
+        {
+          "label": "4",
+          "teks": "Dina berada di puskesmas selama lebih dari 55 menit sejak ia tiba."
+        }
+      ],
+      "kunci": [
+        "1",
+        "4"
+      ],
+      "pembahasan": "Dengan t = 0 saat Dina tiba: Candra selesai disuntik pada menit 6, Bayu disuntik menit 6–16. Dina selesai pemeriksaan awal pada menit 15 sehingga menunggu 1 menit, disuntik menit 16–26, lalu observasi 26–56. (1) benar; (2) salah, Bayu selesai pada menit 16; (3) salah, Dina mulai disuntik menit 16; (4) benar, total 56 menit.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Laju perubahan",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: menyelesaikan masalah sehari-hari terkait laju perubahan.",
+        "indikator": "Menganalisis urutan layanan dan waktu tunggu pada alur pelayanan dengan satu meja penyuntikan.",
+        "level_kognitif": "Penalaran"
+      }
+    },
+    {
+      "nomor": 11,
+      "tipe": "PGK_KATEGORI",
+      "bentuk_soal": "PGK Kategori",
+      "stimulus_id": "S1",
+      "teks_soal": "Puskesmas menambah satu meja penyuntikan sehingga 2 orang dapat disuntik bersamaan (tahap lainnya tidak berubah). Setiap orang langsung menuju tahap berikutnya begitu satu tahap selesai. Pada pukul 09.00 terlihat 2 orang berada di ruang observasi: seorang baru saja memulai observasi dan seorang lainnya sudah menjalani observasi selama 20 menit.",
+      "gambar": [],
+      "instruksi": "Tentukan Benar atau Salah untuk setiap pernyataan berikut tentang situasi di puskesmas tersebut!",
+      "pilihan_kategori": [
+        "Benar",
+        "Salah"
+      ],
+      "pernyataan": [
+        {
+          "label": "A",
+          "teks": "Orang yang baru memulai observasi pada pukul 09.00 mulai disuntik pada pukul 08.55."
+        },
+        {
+          "label": "B",
+          "teks": "Orang yang sudah menjalani observasi 20 menit pada pukul 09.00 akan selesai observasi pada pukul 09.10."
+        },
+        {
+          "label": "C",
+          "teks": "Pada pukul 08.35, orang yang sudah menjalani observasi 20 menit pada pukul 09.00 masih berada pada tahap penyuntikan."
+        }
+      ],
+      "kunci": {
+        "A": "Salah",
+        "B": "Benar",
+        "C": "Benar"
+      },
+      "pembahasan": "Orang pertama mulai observasi 09.00, berarti disuntik 08.50–09.00 → (A) Salah. Orang kedua mulai observasi 08.40 sehingga selesai 09.10 → (B) Benar; ia disuntik 08.30–08.40, jadi pukul 08.35 masih disuntik → (C) Benar.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Laju perubahan",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: menyelesaikan masalah sehari-hari terkait laju perubahan.",
+        "indikator": "Menentukan waktu kejadian pada alur pelayanan dengan menalar mundur dan maju.",
+        "level_kognitif": "Penalaran"
+      }
+    },
+    {
+      "nomor": 12,
+      "tipe": "PG",
+      "bentuk_soal": "Pilihan Ganda (PG)",
+      "teks_soal": "Perhatikan bentuk aljabar berikut.\n(2x + 3)(x − 4) − 2x(x − 1)\nBentuk sederhana dari bentuk aljabar tersebut adalah ....",
+      "gambar": [],
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "−3x − 12"
+        },
+        {
+          "label": "B",
+          "teks": "−7x − 12"
+        },
+        {
+          "label": "C",
+          "teks": "4x² − 7x − 12"
+        },
+        {
+          "label": "D",
+          "teks": "−3x + 12"
+        }
+      ],
+      "kunci": "A",
+      "pembahasan": "(2x + 3)(x − 4) = 2x² − 5x − 12 dan 2x(x − 1) = 2x² − 2x. Selisihnya: 2x² − 5x − 12 − 2x² + 2x = −3x − 12.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Bentuk Aljabar",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: bentuk aljabar dan sifat-sifat operasinya (komutatif, asosiatif, dan distributif).",
+        "indikator": "Menyederhanakan bentuk aljabar dengan sifat distributif.",
+        "level_kognitif": "Pemahaman"
+      }
+    },
+    {
+      "nomor": 13,
+      "tipe": "PGK_MCMA",
+      "bentuk_soal": "PGK MCMA",
+      "teks_soal": "Sebuah tempat penyewaan sepeda menetapkan biaya sebagai berikut:\n• Biaya administrasi sebesar Rp15.000,00.\n• Biaya sewa Rp8.000,00 per jam.\nDina memiliki anggaran tidak lebih dari Rp63.000,00 untuk satu kali penyewaan.\nBerikut ini, manakah pernyataan yang benar tentang permasalahan tersebut?",
+      "gambar": [],
+      "instruksi": "Pilih semua jawaban benar! Jawaban benar lebih dari satu.",
+      "opsi": [
+        {
+          "label": "1",
+          "teks": "Apabila x menyatakan lama sewa (dalam jam), permasalahan dapat dimodelkan dengan 8.000x + 15.000 ≤ 63.000."
+        },
+        {
+          "label": "2",
+          "teks": "Lama sewa maksimum yang masih sesuai anggaran adalah 6 jam."
+        },
+        {
+          "label": "3",
+          "teks": "Jika sepeda disewa 7 jam, biaya totalnya Rp65.000,00 sehingga masih sesuai anggaran."
+        },
+        {
+          "label": "4",
+          "teks": "Jika sepeda disewa 5 jam, anggaran Dina masih tersisa Rp8.000,00."
+        }
+      ],
+      "kunci": [
+        "1",
+        "2",
+        "4"
+      ],
+      "pembahasan": "Model: 8.000x + 15.000 ≤ 63.000 → x ≤ 6 (1 dan 2 benar). Sewa 7 jam: 56.000 + 15.000 = Rp71.000 > 63.000 (3 salah). Sewa 5 jam: 40.000 + 15.000 = 55.000; sisa 63.000 − 55.000 = Rp8.000 (4 benar).",
+      "kisi_kisi": {
+        "sub_kompetensi": "Persamaan dan Pertidaksamaan Linier",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: pertidaksamaan linear satu variabel.",
+        "indikator": "Memodelkan dan menyelesaikan masalah kontekstual dengan pertidaksamaan linear satu variabel.",
+        "level_kognitif": "Penalaran"
+      }
+    },
+    {
+      "nomor": 14,
+      "tipe": "PGK_KATEGORI",
+      "bentuk_soal": "PGK Kategori",
+      "teks_soal": "Di sebuah kantin sekolah, harga 2 porsi nasi goreng dan 3 gelas teh adalah Rp58.000,00, sedangkan harga 3 porsi nasi goreng dan 1 gelas teh adalah Rp66.000,00. Misalkan harga satu porsi nasi goreng adalah x rupiah dan harga satu gelas teh adalah y rupiah, sehingga diperoleh sistem persamaan linear berikut.\n2x + 3y = 58.000\n3x + y = 66.000",
+      "gambar": [],
+      "instruksi": "Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+      "pilihan_kategori": [
+        "Benar",
+        "Salah"
+      ],
+      "pernyataan": [
+        {
+          "label": "A",
+          "teks": "Harga satu porsi nasi goreng adalah Rp20.000,00."
+        },
+        {
+          "label": "B",
+          "teks": "Harga 2 gelas teh adalah Rp12.000,00."
+        },
+        {
+          "label": "C",
+          "teks": "Harga 1 porsi nasi goreng dan 3 gelas teh adalah Rp40.000,00."
+        }
+      ],
+      "kunci": {
+        "A": "Benar",
+        "B": "Benar",
+        "C": "Salah"
+      },
+      "pembahasan": "Dari 3x + y = 66.000 → y = 66.000 − 3x. Substitusi: 2x + 198.000 − 9x = 58.000 → x = 20.000, y = 6.000. (A) Benar; (B) 2 × 6.000 = 12.000 → Benar; (C) 20.000 + 18.000 = 38.000 → Salah.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Persamaan dan Pertidaksamaan Linier",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: sistem persamaan linear dua variabel.",
+        "indikator": "Menyelesaikan SPLDV kontekstual dan menentukan kebenaran pernyataan dari solusinya.",
+        "level_kognitif": "Penerapan"
+      }
+    },
+    {
+      "nomor": 15,
+      "tipe": "PG",
+      "bentuk_soal": "Pilihan Ganda (PG)",
+      "teks_soal": "Rumus untuk mengubah suhu dari derajat Celsius (C) ke derajat Fahrenheit (F) adalah F = (9/5)C + 32.\nJika daerah asal (domain) fungsi tersebut adalah {0, 10, 25, 30}, maka daerah hasil (range) fungsi tersebut adalah ....",
+      "gambar": [],
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "{0, 18, 45, 54}"
+        },
+        {
+          "label": "B",
+          "teks": "{30, 50, 80, 90}"
+        },
+        {
+          "label": "C",
+          "teks": "{32, 42, 57, 62}"
+        },
+        {
+          "label": "D",
+          "teks": "{32, 50, 77, 86}"
+        }
+      ],
+      "kunci": "D",
+      "pembahasan": "F(0) = 32; F(10) = 18 + 32 = 50; F(25) = 45 + 32 = 77; F(30) = 54 + 32 = 86. Range = {32, 50, 77, 86}.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Fungsi",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: relasi dan fungsi (domain, kodomain, range), serta penyajiannya.",
+        "indikator": "Menentukan daerah hasil fungsi linear dari domain tertentu.",
+        "level_kognitif": "Pemahaman"
+      }
+    },
+    {
+      "nomor": 16,
+      "tipe": "PG",
+      "bentuk_soal": "Pilihan Ganda (PG)",
+      "teks_soal": "Rani menyusun batang korek api membentuk persegi-persegi yang berjajar seperti pada gambar berikut.\nJika pola tersebut berlanjut, banyak batang korek api pada pola ke-12 adalah ....",
+      "gambar": [
+        {
+          "file": "images/q16.png",
+          "lebar_cm": 12.44,
+          "tinggi_cm": 3.07
+        }
+      ],
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "36"
+        },
+        {
+          "label": "B",
+          "teks": "37"
+        },
+        {
+          "label": "C",
+          "teks": "40"
+        },
+        {
+          "label": "D",
+          "teks": "48"
+        }
+      ],
+      "kunci": "B",
+      "pembahasan": "Banyak batang: 4, 7, 10, … (beda 3). Un = 4 + (n − 1) × 3 = 3n + 1. U12 = 3(12) + 1 = 37.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Barisan dan Deret",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: barisan berhingga bilangan.",
+        "indikator": "Menentukan suku ke-n dari pola bilangan pada susunan objek.",
+        "level_kognitif": "Penerapan"
+      }
+    },
+    {
+      "nomor": 17,
+      "tipe": "PGK_KATEGORI",
+      "bentuk_soal": "PGK Kategori",
+      "teks_soal": "Sebuah tribun stadion memiliki 10 baris kursi. Baris pertama terdapat 20 kursi, dan setiap baris berikutnya memiliki 4 kursi lebih banyak daripada baris di depannya.",
+      "gambar": [],
+      "instruksi": "Tentukan Benar atau Salah untuk setiap pernyataan berikut tentang kursi pada tribun tersebut!",
+      "pilihan_kategori": [
+        "Benar",
+        "Salah"
+      ],
+      "pernyataan": [
+        {
+          "label": "A",
+          "teks": "Banyak kursi pada baris ke-6 adalah 44."
+        },
+        {
+          "label": "B",
+          "teks": "Banyak kursi pada baris terakhir adalah 52."
+        },
+        {
+          "label": "C",
+          "teks": "Jumlah seluruh kursi pada tribun tersebut adalah 380."
+        }
+      ],
+      "kunci": {
+        "A": "Salah",
+        "B": "Salah",
+        "C": "Benar"
+      },
+      "pembahasan": "U1 = 20, b = 4. U6 = 20 + 5 × 4 = 40 → (A) Salah. U10 = 20 + 9 × 4 = 56 → (B) Salah. S10 = 10/2 × (20 + 56) = 380 → (C) Benar.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Barisan dan Deret",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: barisan berhingga bilangan.",
+        "indikator": "Menentukan suku dan jumlah suku barisan aritmetika pada konteks tempat duduk.",
+        "level_kognitif": "Penalaran"
+      }
+    },
+    {
+      "nomor": 18,
+      "tipe": "PGK_KATEGORI",
+      "bentuk_soal": "PGK Kategori",
+      "teks_soal": "Pada rangka sebuah jembatan terdapat dua batang baja yang sejajar (garis k dan garis l) yang dipotong oleh sebuah batang baja diagonal (garis m), seperti sketsa berikut.",
+      "gambar": [
+        {
+          "file": "images/q18.png",
+          "lebar_cm": 8.73,
+          "tinggi_cm": 5.4
+        }
+      ],
+      "instruksi": "Jika besar sudut B adalah 65°, tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+      "pilihan_kategori": [
+        "Benar",
+        "Salah"
+      ],
+      "pernyataan": [
+        {
+          "label": "A",
+          "teks": "Besar sudut E adalah 65°."
+        },
+        {
+          "label": "B",
+          "teks": "Jumlah besar sudut D dan sudut F adalah 180°."
+        },
+        {
+          "label": "C",
+          "teks": "Sudut B dan sudut H sama besar karena merupakan sudut luar berseberangan."
+        }
+      ],
+      "kunci": {
+        "A": "Salah",
+        "B": "Benar",
+        "C": "Salah"
+      },
+      "pembahasan": "Sudut A, D, E, H = 115° dan sudut B, C, F, G = 65°. (A) E = 115° → Salah. (B) D + F = 115° + 65° = 180° (sudut dalam sepihak) → Benar. (C) B = 65° dan H = 115°, tidak sama besar → Salah.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Objek Geometri",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: hubungan antarsudut pada dua garis berpotongan dan dua garis sejajar yang dipotong garis transversal.",
+        "indikator": "Menentukan besar dan hubungan sudut pada dua garis sejajar yang dipotong transversal.",
+        "level_kognitif": "Penalaran"
+      }
+    },
+    {
+      "nomor": 19,
+      "tipe": "PGK_KATEGORI",
+      "bentuk_soal": "PGK Kategori",
+      "teks_soal": "Pada suatu siang, bayangan Pak Budi yang tingginya 1,6 m adalah 2 m. Pada saat yang sama, bayangan sebuah tiang bendera adalah 7,5 m, seperti pada gambar berikut. (Anggap Pak Budi dan tiang berdiri tegak lurus terhadap tanah.)",
+      "gambar": [
+        {
+          "file": "images/q19.png",
+          "lebar_cm": 12.44,
+          "tinggi_cm": 7.38
+        }
+      ],
+      "instruksi": "Tentukan Benar atau Salah untuk setiap pernyataan berikut!",
+      "pilihan_kategori": [
+        "Benar",
+        "Salah"
+      ],
+      "pernyataan": [
+        {
+          "label": "A",
+          "teks": "Segitiga yang dibentuk Pak Budi dan bayangannya sebangun dengan segitiga yang dibentuk tiang bendera dan bayangannya."
+        },
+        {
+          "label": "B",
+          "teks": "Tinggi tiang bendera adalah 5,6 m."
+        },
+        {
+          "label": "C",
+          "teks": "Perbandingan tinggi benda terhadap panjang bayangannya adalah 5 : 4."
+        }
+      ],
+      "kunci": {
+        "A": "Benar",
+        "B": "Salah",
+        "C": "Salah"
+      },
+      "pembahasan": "Kedua segitiga siku-siku memiliki sudut matahari yang sama sehingga sebangun (A benar). 1,6 : 2 = t : 7,5 → t = 6 m (B salah). Perbandingan tinggi : bayangan = 1,6 : 2 = 4 : 5 (C salah).",
+      "kisi_kisi": {
+        "sub_kompetensi": "Objek Geometri",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: kekongruenan dan kesebangunan bangun datar.",
+        "indikator": "Menerapkan kesebangunan segitiga pada masalah bayangan benda.",
+        "level_kognitif": "Penerapan"
+      }
+    },
+    {
+      "nomor": 20,
+      "tipe": "PGK_KATEGORI",
+      "bentuk_soal": "PGK Kategori",
+      "teks_soal": "Sebuah lapangan berbentuk persegi panjang dengan dua daerah setengah lingkaran di kedua ujungnya, seperti terlihat pada gambar berikut.",
+      "gambar": [
+        {
+          "file": "images/q20.png",
+          "lebar_cm": 11.11,
+          "tinggi_cm": 6.35
+        }
+      ],
+      "instruksi": "Tentukan Benar atau Salah untuk setiap pernyataan berikut tentang lapangan tersebut! (Gunakan π = 22/7)",
+      "pilihan_kategori": [
+        "Benar",
+        "Salah"
+      ],
+      "pernyataan": [
+        {
+          "label": "A",
+          "teks": "Luas lapangan kurang dari 430 m²."
+        },
+        {
+          "label": "B",
+          "teks": "Keliling lapangan adalah 84 m."
+        },
+        {
+          "label": "C",
+          "teks": "Luas gabungan kedua daerah setengah lingkaran adalah 154 m²."
+        }
+      ],
+      "kunci": {
+        "A": "Salah",
+        "B": "Benar",
+        "C": "Benar"
+      },
+      "pembahasan": "Dua setengah lingkaran membentuk satu lingkaran berdiameter 14 m (r = 7 m): luasnya 22/7 × 7 × 7 = 154 m² (C benar), kelilingnya 2 × 22/7 × 7 = 44 m. Luas persegi panjang 20 × 14 = 280 m², luas lapangan 434 m² > 430 (A salah). Keliling = 2 × 20 + 44 = 84 m (B benar).",
+      "kisi_kisi": {
+        "sub_kompetensi": "Pengukuran",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: keliling dan luas bangun datar (daerah segi banyak dan daerah lingkaran, serta daerah gabungannya).",
+        "indikator": "Menghitung keliling dan luas bangun gabungan persegi panjang dan setengah lingkaran.",
+        "level_kognitif": "Penerapan"
+      }
+    },
+    {
+      "nomor": 21,
+      "tipe": "PG",
+      "bentuk_soal": "Pilihan Ganda (PG)",
+      "teks_soal": "Pak Anton akan memasang keramik berukuran 50 cm × 50 cm pada lantai ruang keluarga yang berbentuk seperti gambar berikut.\nKeramik dijual dalam kemasan dus berisi 10 keping dengan harga Rp180.000,00 per dus. Pak Anton hanya membeli dus utuh. Keramik terpasang rapat tanpa celah dan tidak ada keramik yang terbuang.\nBiaya minimal yang harus dikeluarkan Pak Anton untuk membeli keramik adalah ....",
+      "gambar": [
+        {
+          "file": "images/q21.png",
+          "lebar_cm": 9.0,
+          "tinggi_cm": 7.04
+        }
+      ],
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Rp2.880.000,00"
+        },
+        {
+          "label": "B",
+          "teks": "Rp3.060.000,00"
+        },
+        {
+          "label": "C",
+          "teks": "Rp3.240.000,00"
+        },
+        {
+          "label": "D",
+          "teks": "Rp3.780.000,00"
+        }
+      ],
+      "kunci": "B",
+      "pembahasan": "Luas lantai = 8 × 4 + 5 × 2 = 42 m². Luas 1 keramik = 0,5 × 0,5 = 0,25 m², sehingga dibutuhkan 168 keping = 16,8 dus → 17 dus. Biaya = 17 × 180.000 = Rp3.060.000.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Pengukuran",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: keliling dan luas bangun datar (daerah segi banyak dan daerah lingkaran, serta daerah gabungannya).",
+        "indikator": "Menghitung luas bangun datar gabungan dan menentukan kebutuhan bahan beserta biayanya.",
+        "level_kognitif": "Penalaran"
+      }
+    },
+    {
+      "nomor": 22,
+      "tipe": "PG",
+      "bentuk_soal": "Pilihan Ganda (PG)",
+      "teks_soal": "Rani ingin membuat kotak kado berbentuk kubus dari selembar karton. Ia menggambar empat rancangan pola berikut.\nRancangan pola yang tidak dapat dilipat membentuk kubus adalah ....",
+      "gambar": [
+        {
+          "file": "images/q22.png",
+          "lebar_cm": 10.05,
+          "tinggi_cm": 8.52
+        }
+      ],
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Rancangan A"
+        },
+        {
+          "label": "B",
+          "teks": "Rancangan B"
+        },
+        {
+          "label": "C",
+          "teks": "Rancangan C"
+        },
+        {
+          "label": "D",
+          "teks": "Rancangan D"
+        }
+      ],
+      "kunci": "C",
+      "pembahasan": "Pada rancangan C, empat persegi berjajar membentuk selimut kubus, tetapi dua persegi lainnya berada pada sisi yang sama sehingga saling menumpuk dan ada sisi yang tidak tertutup. Rancangan A, B (pola 1-4-1), dan D (pola 2-2-2) merupakan jaring-jaring kubus.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Objek Geometri",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: jaring-jaring bangun ruang.",
+        "indikator": "Mengidentifikasi pola yang bukan jaring-jaring kubus.",
+        "level_kognitif": "Penalaran"
+      }
+    },
+    {
+      "nomor": 23,
+      "tipe": "PG",
+      "bentuk_soal": "Pilihan Ganda (PG)",
+      "teks_soal": "Sebuah kapal nelayan terpantau pada posisi seperti pada gambar koordinat berikut.\nKapal tersebut kemudian bergerak mengikuti translasi T(−5, 3).\nPosisi kapal setelah berpindah sesuai translasi tersebut adalah ....",
+      "gambar": [
+        {
+          "file": "images/q23.png",
+          "lebar_cm": 11.11,
+          "tinggi_cm": 8.28
+        }
+      ],
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "titik A"
+        },
+        {
+          "label": "B",
+          "teks": "titik B"
+        },
+        {
+          "label": "C",
+          "teks": "titik C"
+        },
+        {
+          "label": "D",
+          "teks": "titik D"
+        }
+      ],
+      "kunci": "D",
+      "pembahasan": "Kapal di (7, 4). Setelah translasi (−5, 3): (7 − 5, 4 + 3) = (2, 7), yaitu titik D.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Transformasi Geometri",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: transformasi tunggal (refleksi, translasi, rotasi, dan dilatasi) terhadap titik, garis, dan bangun datar.",
+        "indikator": "Menentukan koordinat bayangan titik hasil translasi pada bidang koordinat.",
+        "level_kognitif": "Pemahaman"
+      }
+    },
+    {
+      "nomor": 24,
+      "tipe": "PG",
+      "bentuk_soal": "Pilihan Ganda (PG)",
+      "teks_soal": "Perhatikan gambar berikut!\nTransformasi tunggal yang paling tepat untuk mengubah posisi segitiga ABC menjadi segitiga A′B′C′ adalah ....",
+      "gambar": [
+        {
+          "file": "images/q24.png",
+          "lebar_cm": 9.0,
+          "tinggi_cm": 10.42
+        }
+      ],
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "rotasi 90° searah jarum jam dengan pusat di titik asal"
+        },
+        {
+          "label": "B",
+          "teks": "rotasi 90° berlawanan arah jarum jam dengan pusat di titik asal"
+        },
+        {
+          "label": "C",
+          "teks": "refleksi terhadap garis y = −x"
+        },
+        {
+          "label": "D",
+          "teks": "translasi (−1, −3)"
+        }
+      ],
+      "kunci": "A",
+      "pembahasan": "A(2, 1) → A′(1, −2), B(5, 1) → B′(1, −5), C(3, 4) → C′(4, −3). Pola (x, y) → (y, −x) adalah rotasi 90° searah jarum jam berpusat di O. Translasi tidak cocok karena orientasi segitiga berubah (alas yang mendatar menjadi tegak).",
+      "kisi_kisi": {
+        "sub_kompetensi": "Transformasi Geometri",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: transformasi tunggal (refleksi, translasi, rotasi, dan dilatasi) terhadap titik, garis, dan bangun datar.",
+        "indikator": "Menentukan jenis transformasi tunggal yang memetakan suatu bangun ke bayangannya.",
+        "level_kognitif": "Penerapan"
+      }
+    },
+    {
+      "nomor": 25,
+      "tipe": "PG",
+      "bentuk_soal": "Pilihan Ganda (PG)",
+      "teks_soal": "Sebuah akuarium berbentuk balok berukuran 44 cm × 49 cm × 40 cm berisi air setinggi 25 cm. Ke dalam akuarium dimasukkan 3 buah bola kaca identik dengan jari-jari 7 cm, seperti pada gambar berikut.\nSemua bola tenggelam seluruhnya dan air tidak tumpah. (Gunakan π = 22/7)\nTinggi air di dalam akuarium setelah bola dimasukkan adalah ....",
+      "gambar": [
+        {
+          "file": "images/q25.png",
+          "lebar_cm": 10.05,
+          "tinggi_cm": 7.75
+        }
+      ],
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "26 cm"
+        },
+        {
+          "label": "B",
+          "teks": "26,5 cm"
+        },
+        {
+          "label": "C",
+          "teks": "27 cm"
+        },
+        {
+          "label": "D",
+          "teks": "28 cm"
+        }
+      ],
+      "kunci": "C",
+      "pembahasan": "Volume 3 bola = 3 × (4/3) × (22/7) × 7³ = 4.312 cm³. Luas alas akuarium = 44 × 49 = 2.156 cm². Kenaikan air = 4.312 : 2.156 = 2 cm, sehingga tinggi air = 25 + 2 = 27 cm.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Pengukuran",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: volume bangun ruang (prisma, limas, dan bola).",
+        "indikator": "Menghitung perubahan tinggi air akibat benda berbentuk bola yang dimasukkan ke dalam wadah balok.",
+        "level_kognitif": "Penerapan"
+      }
+    },
+    {
+      "nomor": 26,
+      "tipe": "PG",
+      "bentuk_soal": "Pilihan Ganda (PG)",
+      "teks_soal": "Diagram batang berikut menunjukkan jumlah peserta lima kegiatan ekstrakurikuler di sebuah SMP.\nPernyataan yang tepat tentang informasi pada diagram batang tersebut adalah ....",
+      "gambar": [
+        {
+          "file": "images/q26.png",
+          "lebar_cm": 11.11,
+          "tinggi_cm": 7.43
+        }
+      ],
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "Peserta Pramuka tepat dua kali lipat peserta Seni."
+        },
+        {
+          "label": "B",
+          "teks": "Selisih peserta terbanyak dan peserta tersedikit adalah 24 siswa."
+        },
+        {
+          "label": "C",
+          "teks": "Peserta Robotik lebih sedikit daripada peserta Basket."
+        },
+        {
+          "label": "D",
+          "teks": "Jumlah peserta PMR dan Seni sama dengan jumlah peserta Pramuka."
+        }
+      ],
+      "kunci": "B",
+      "pembahasan": "Peserta terbanyak: Pramuka (54), tersedikit: Seni (30); selisihnya 24. (A) 54 ≠ 2 × 30. (C) Robotik 48 > Basket 42. (D) 36 + 30 = 66 ≠ 54.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Data",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: perumusan pertanyaan untuk mendapatkan data, serta penyajian dan penginterpretasian data.",
+        "indikator": "Menginterpretasi data pada diagram batang.",
+        "level_kognitif": "Pemahaman"
+      }
+    },
+    {
+      "nomor": 27,
+      "tipe": "PGK_MCMA",
+      "bentuk_soal": "PGK MCMA",
+      "teks_soal": "Sebuah toko buku daring mengevaluasi penjualan selama 5 bulan terakhir. Berikut disajikan data jumlah pesanan per bulan dan data persentase jenis buku yang terjual pada bulan November. Anggap setiap pesanan berisi tepat satu buku.\nBerdasarkan kedua data tersebut, manakah pernyataan yang benar?",
+      "gambar": [
+        {
+          "file": "images/q27a.png",
+          "lebar_cm": 10.58,
+          "tinggi_cm": 5.9
+        },
+        {
+          "file": "images/q27b.png",
+          "lebar_cm": 8.47,
+          "tinggi_cm": 6.24
+        }
+      ],
+      "instruksi": "Pilih semua jawaban benar! Jawaban benar lebih dari satu.",
+      "opsi": [
+        {
+          "label": "1",
+          "teks": "Peningkatan jumlah pesanan paling besar terjadi pada periode bulan September ke Oktober."
+        },
+        {
+          "label": "2",
+          "teks": "Pada bulan November, jumlah buku fiksi yang terjual adalah 56 buah."
+        },
+        {
+          "label": "3",
+          "teks": "Berdasarkan diagram garis, jumlah pesanan selalu mengalami kenaikan setiap bulannya."
+        },
+        {
+          "label": "4",
+          "teks": "Pada bulan November, jumlah buku komik yang terjual adalah 32 buah."
+        }
+      ],
+      "kunci": [
+        "2",
+        "4"
+      ],
+      "pembahasan": "Kenaikan: Jul→Agu +15, Agu→Sep −5, Sep→Okt +30, Okt→Nov +40; terbesar Okt→Nov (1 salah, 3 salah). November 160 pesanan: fiksi 35% = 56 (2 benar); komik 20% = 32 (4 benar).",
+      "kisi_kisi": {
+        "sub_kompetensi": "Data",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: perumusan pertanyaan untuk mendapatkan data, serta penyajian dan penginterpretasian data.",
+        "indikator": "Menginterpretasi dua penyajian data (diagram garis dan diagram lingkaran) secara bersama-sama.",
+        "level_kognitif": "Penalaran"
+      }
+    },
+    {
+      "nomor": 28,
+      "tipe": "PG",
+      "bentuk_soal": "Pilihan Ganda (PG)",
+      "teks_soal": "Rata-rata nilai ulangan matematika 8 siswa adalah 72. Setelah seorang siswa mengikuti ulangan susulan, rata-rata nilai 9 siswa tersebut menjadi 74.\nNilai ulangan siswa susulan tersebut adalah ....",
+      "gambar": [],
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "90"
+        },
+        {
+          "label": "B",
+          "teks": "82"
+        },
+        {
+          "label": "C",
+          "teks": "74"
+        },
+        {
+          "label": "D",
+          "teks": "72"
+        }
+      ],
+      "kunci": "A",
+      "pembahasan": "Jumlah nilai 8 siswa = 8 × 72 = 576. Jumlah nilai 9 siswa = 9 × 74 = 666. Nilai siswa susulan = 666 − 576 = 90.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Data",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: penentuan dan penaksiran rerata (mean), median, modus, dan jangkauan (range) dari data.",
+        "indikator": "Menentukan nilai data baru dari perubahan rata-rata.",
+        "level_kognitif": "Penerapan"
+      }
+    },
+    {
+      "nomor": 29,
+      "tipe": "PG",
+      "bentuk_soal": "Pilihan Ganda (PG)",
+      "teks_soal": "Sebuah roda putar dibagi menjadi 10 juring sama besar yang diberi nomor 1 sampai 10, seperti pada gambar berikut. Panah diputar dan berhenti secara acak pada salah satu juring.\nPeluang panah berhenti pada juring yang bernomor bilangan prima adalah ....",
+      "gambar": [
+        {
+          "file": "images/q29.png",
+          "lebar_cm": 6.09,
+          "tinggi_cm": 6.09
+        }
+      ],
+      "opsi": [
+        {
+          "label": "A",
+          "teks": "1/10"
+        },
+        {
+          "label": "B",
+          "teks": "1/5"
+        },
+        {
+          "label": "C",
+          "teks": "3/10"
+        },
+        {
+          "label": "D",
+          "teks": "2/5"
+        }
+      ],
+      "kunci": "D",
+      "pembahasan": "Bilangan prima pada 1–10: 2, 3, 5, 7 (4 buah). Peluang = 4/10 = 2/5.",
+      "kisi_kisi": {
+        "sub_kompetensi": "Peluang",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: peluang dan frekuensi relatif dari kejadian tunggal.",
+        "indikator": "Menentukan peluang suatu kejadian tunggal pada percobaan acak.",
+        "level_kognitif": "Pemahaman"
+      }
+    },
+    {
+      "nomor": 30,
+      "tipe": "PGK_MCMA",
+      "bentuk_soal": "PGK MCMA",
+      "teks_soal": "Seorang pemain basket mencatat hasil latihan lemparan bebas dalam tiga sesi sebagai berikut.\n[TABEL]\nData tersebut digunakan untuk memperkirakan peluang lemparan berikutnya.\nBerdasarkan tabel hasil latihan, manakah pernyataan yang benar?",
+      "tabel": {
+        "header": [
+          "Sesi",
+          "Jumlah Lemparan",
+          "Lemparan Masuk"
+        ],
+        "baris": [
+          [
+            "I",
+            "20",
+            "14"
+          ],
+          [
+            "II",
+            "30",
+            "21"
+          ],
+          [
+            "III",
+            "50",
+            "40"
+          ]
+        ]
+      },
+      "gambar": [],
+      "instruksi": "Pilih semua jawaban benar! Jawaban benar lebih dari satu.",
+      "opsi": [
+        {
+          "label": "1",
+          "teks": "Frekuensi relatif lemparan masuk dari seluruh sesi adalah 0,75."
+        },
+        {
+          "label": "2",
+          "teks": "Frekuensi relatif lemparan masuk pada Sesi II lebih besar daripada pada Sesi III."
+        },
+        {
+          "label": "3",
+          "teks": "Jika ia melakukan 60 lemparan lagi, diperkirakan sekitar 45 lemparan masuk."
+        },
+        {
+          "label": "4",
+          "teks": "Peluang lemparan berikutnya tidak masuk adalah 0,25."
+        }
+      ],
+      "kunci": [
+        "1",
+        "3",
+        "4"
+      ],
+      "pembahasan": "Total 100 lemparan, 75 masuk → frekuensi relatif 0,75 (1 benar). Sesi II = 21/30 = 0,7 dan Sesi III = 40/50 = 0,8 (2 salah). 0,75 × 60 = 45 (3 benar). Peluang tidak masuk = 1 − 0,75 = 0,25 (4 benar).",
+      "kisi_kisi": {
+        "sub_kompetensi": "Peluang",
+        "kompetensi": "Memahami, mengaplikasikan, dan bernalar untuk menyelesaikan permasalahan terkait: peluang dan frekuensi relatif dari kejadian tunggal.",
+        "indikator": "Menentukan frekuensi relatif dan menaksir peluang berdasarkan data percobaan.",
+        "level_kognitif": "Penerapan"
+      }
+    }
+  ]
+}
